@@ -1,0 +1,82 @@
+.expense-tracker {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section input,
+.input-section select,
+.input-section button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-section button {
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.input-section button:hover {
+  background: #218838;
+}
+
+.transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-list li {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.transaction-list .income {
+  background: #d4edda;
+  color: #155724;
+}
+
+.transaction-list .expense {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+p:nth-child(2) {
+  color: #28a745;
+}
+
+p:nth-child(3) {
+  color: #dc3545;
+}
+
+p:nth-child(4) {
+  color: #007bff;
+  font-weight: bold;
+}
